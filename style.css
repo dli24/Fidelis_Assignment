@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0 auto;
     font-family: Arial, sans-serif;
-    /* background-color: rgb(255, 255, 255); */
+    /* border: 1px solid red; */
 }
 /* The Header Part with the Fidelis Logo */
 .header{
@@ -49,7 +49,7 @@
     height: 360px;
 }
 .s2left{
-    width: 50vw;
+    width: 50%;
 }
 .s2left img{
     height: 360px;
@@ -132,4 +132,241 @@
     color: #ffffff;
     text-align: center;
     padding-top: 50px;
+}
+
+/* When Shrink to 1000px Width */
+@media only screen and (max-width: 1000px){
+    /* Section One */
+    .sectionone{
+        height: 300px;
+    }
+    .sectionone p{
+        font-size: 20px;
+        line-height: 25px;
+        padding-top: 100px;
+    }
+    .enroll{
+
+        font-size: 14px;
+        border: none;
+        margin-left: 15%;
+        margin-top: 1em;
+        padding: 10px 85px;
+    }
+    /* Section Two */
+    .sectiontwo{
+        height: 330px;
+    }
+    .s2left img{
+        height: 330px;
+    }
+    .s2right h2{
+        font-size: 16px;
+        line-height: 20px;
+        margin: 30px 40% 0 11%;
+    }
+    
+    .s2right p{
+        font-size: 14px;
+        line-height: 18px;
+        color: #656b72;
+        margin: 2% 38% 0 11%;
+    }
+    
+    /* HOW IT WORKS BUTTON */
+    .how{
+        font-size: 14px;
+        border: none;
+        padding: 1.7% 13%;
+    }
+    /* Section Three */
+    .sectionthree{
+        height: 330px;
+    }
+    .s3left h2{
+        font-size: 16px;
+        line-height: 20px;
+        margin: 25px 20% 0 25%;
+    }
+    .s3left p{
+        font-size: 14px;
+        line-height: 18px;
+        color: #656b72;
+        margin: 5px 20% 0 25%;
+    }
+    /* Learn More Button */
+    .learn {
+        font-size: 14px;
+        margin-top: 1%;
+        margin-left: 25%;
+        padding: 1.7% 15%;
+    }
+    .s3right img{
+        height: 330px;
+    }
+
+}
+
+/* When Shrink to 750px Width */
+@media only screen and (max-width: 750px){
+    /* Section One */
+    .sectionone{
+        height: 280px;
+    }
+    .sectionone p{
+        font-size: 18px;
+        line-height: 23px;
+        padding-top: 80px;
+    }
+    .enroll{
+
+        font-size: 14px;
+        border: none;
+        margin-left: 15%;
+        margin-top: 1em;
+        padding: 10px 60px;
+    }
+    /* Section Two */
+    .sectiontwo{
+        height: 300px;
+    }
+    .s2left img{
+        height: 300px;
+    }
+    .s2right h2{
+        font-size: 14px;
+        line-height: 16px;
+        margin: 30px 25% 0 11%;
+    }
+    
+    .s2right p{
+        font-size: 12px;
+        line-height: 16px;
+        color: #656b72;
+        margin: 2% 25% 0 11%;
+    }
+    /* HOW IT WORKS BUTTON */
+    .how{
+        font-size: 12px;
+        border: none;
+        padding: 1.7% 13%;
+    }
+
+    /* Section Three */
+    .sectionthree{
+        height: 300px;
+    }
+    .s3left h2{
+        font-size: 14px;
+        line-height: 18px;
+        margin: 25px 15% 0 10%;
+    }
+    .s3left p{
+        font-size: 12px;
+        line-height: 16px;
+        margin: 5px 15% 0 10%;
+    }
+    /* Learn More Button */
+    .learn {
+        font-size: 14px;
+        margin-top: 1%;
+        margin-left: 10%;
+        padding: 1.7% 25%;
+    }
+    .s3right img{
+        height: 300px;
+    }
+
+}
+
+/* When it shrink to 600 */
+@media only screen and (max-width: 600px){
+    /* Section One */
+    .sectionone p{
+        font-size: 18px;
+        line-height: 23px;
+        padding-top: 80px;
+        margin-left: 25%;
+        margin-right: 20%;
+    }
+    .enroll{
+        font-size: 14px;
+        border: none;
+        margin-left: 25%;
+        margin-top: 1em;
+        padding: 10px 60px;
+    }
+    /* Section Two */
+    .sectiontwo{
+        display: flex;
+        flex-direction: column;
+    }
+    .s2left{
+        width: 100%;
+    }
+    .s2left img{
+        height: 300px;
+    }
+    .s2right{
+        width: 100%;
+    }
+    .s2right h2{
+        font-size: 14px;
+        line-height: 16px;
+        margin: 30px 20% 0 11%;
+    }
+    
+    .s2right p{
+        font-size: 12px;
+        line-height: 16px;
+        color: #656b72;
+        margin: 2% 20% 0 11%;
+    }
+    /* HOW IT WORKS BUTTON */
+    .how{
+        font-size: 12px;
+        border: none;
+        padding: 1.7% 20%;
+    }
+
+    /* Section Three */
+    .sectionthree{
+        flex-direction: column-reverse; 
+        margin-top: 70%;
+}
+    .s3left{
+        width: 100%;
+    }
+    .s3left h2{
+        font-size: 14px;
+        line-height: 18px;
+        margin: 30px 20% 0 11%;
+    }
+    .s3left p{
+        font-size: 12px;
+        line-height: 16px;
+        margin: 2% 20% 0 11%;
+    }
+    /* Learn More Button */
+    .learn {
+        font-size: 14px;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        padding: 1.7% 20%;
+    }
+    .s3right{
+        width: 100%;
+    }
+    .s3right img{
+        height: 300px;
+    }
+
+}
+/* When it shrink to 600 */
+@media only screen and (max-width: 600px){
+    .sectionthree{
+        flex-direction: column-reverse; 
+        margin-top: 85%;
+}
 }
