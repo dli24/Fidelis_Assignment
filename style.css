@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    /* background-color: rgb(255, 255, 255); */
+}
+/* The Header Part with the Fidelis Logo */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header img{
+    height: 80px;
+}
+/* Section One */
+.sectionone{
+    background-image: url("images/image1.jpg");
+    background-position: bottom bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.sectionone p{
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 30px;
+    padding-top: 120px;
+    margin-left: 15%;
+    margin-right: 56.5%;
+    z-index: 100;
+}
+/* Enroll Button */
+.enroll{
+    background-color: #0072ba;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    margin-left: 15%;
+    margin-top: 1em;
+    padding: 10px 120px;
+}
+
+/* Section Two */
+.sectiontwo{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 360px;
+}
+.s2left{
+    width: 50vw;
+}
+.s2left img{
+    height: 360px;
+    width: 100%;
+}
+.s2right{
+    width: 50%;
+}
+.s2right h2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #1e1944;
+    margin: 40px 44% 0 11%;
+}
+
+.s2right p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #656b72;
+    margin: 2% 42% 0 11%;
+}
+
+/* HOW IT WORKS BUTTON */
+.how{
+    background-color: #40b062;
+    font-size: 16px;
+    border: none;
+    color: #ffffff;
+    margin-top: 2%;
+    margin-left: 11%;
+    padding: 1.7% 15%;
+}
+
+/* Section Three */
+.sectionthree{
+    display:flex;
+    flex-direction: row;
+    height: 360px;
+}
+.s3left{
+    width: 50vw;
+}
+.s3left h2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #1e1944;
+    margin: 40px 20% 0 33%;
+}
+.s3left p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #656b72;
+    margin: 10px 20% 0 33%;
+}
+/* Learn More Button */
+.learn {
+    background-color: #22b1da;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    margin-top: 2%;
+    margin-left: 33%;
+    padding: 1.7% 17%;
+}
+.s3right{
+    width: 50%;
+}
+.s3right img{
+    height: 360px;
+    width: 100%;
+}
+
+/* The Footer */
+.bottom{
+    background-color: #121921;
+    height: 17vh;
+}
+.bottom p {
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+}
